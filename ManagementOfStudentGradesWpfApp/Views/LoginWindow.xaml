@@ -1,0 +1,18 @@
+﻿<Window x:Class="ManagementOfStudentGradesWpfApp.Views.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ManagementOfStudentGradesWpfApp.Views"
+        mc:Ignorable="d"
+        Title="Login" Height="250" Width="350">
+    <Grid>
+        <StackPanel Margin="20">
+            <Label Content="Логін або email:" />
+            <TextBox x:Name="txtLoginData" Margin="0,0,0,10" />
+            <Label Content="Пароль:" />
+            <PasswordBox x:Name="txtPassword" Margin="0,0,0,10" />
+            <Button Content="Login" Click="LoginButton_Click" />
+        </StackPanel>
+    </Grid>
+</Window>
